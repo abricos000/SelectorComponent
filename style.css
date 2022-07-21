@@ -12,13 +12,13 @@ body{
  background-color: blue;
 }
 
-.dropdown{
+.js-dropdown{
  float: left;
  position: relative;
  display:inline-block ;
 }
 
-.dropdown__list{
+.js-dropdown__list{
  display: none;
  position: absolute;
  left: 0;
@@ -31,11 +31,11 @@ body{
  z-index: 1;
 }
 
-.dropdown__list-visible{
+.js-dropdown__list-visible{
  display: block;
 }
 
-.dropdown__item{
+.js-dropdown__item{
  margin: 0;
  border: var(--border-gray);
  padding: 13px 20px;
@@ -43,25 +43,25 @@ body{
  cursor: pointer;
 }
 
-.dropdown__item:first-child{
+.js-dropdown__item:first-child{
  border-top: 0;
 }
 
-.dropdown__item:last-child{
+.js-dropdown__item:last-child{
  border-bottom: var(--border-gray);
 }
 
-.dropdown__item:hover{
+.js-dropdown__item:hover{
  background: var(--gray-1);
 } 
 
-.drop{
+.js-drop{
  text-align: left;
  box-sizing: border-box;
  cursor: pointer;
 }
 
-.drop::after{
+.js-drop::after{
  content: "";
  position: absolute;
  top: 50%;
